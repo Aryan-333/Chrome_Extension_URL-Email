@@ -1,8 +1,4 @@
-# Chrome Extension for URL shortener and to scrape Emails
 
-<img width="331" alt="Screenshot 2023-07-08 at 4 16 35 PM" src="https://github.com/Aryan-333/Chrome_Extension_URL-Email/assets/79599835/2b7f6dbb-3675-4247-ae40-dd706bfd6070">
-
-<img width="1437" alt="Screenshot 2023-07-08 at 4 15 22 PM" src="https://github.com/Aryan-333/Chrome_Extension_URL-Email/assets/79599835/41a0c1f1-5bee-436e-a183-e0b8999bd81a">
 
 # Chrome Extension for URL Shortener and Email Scraper
 
@@ -19,7 +15,12 @@ To use the URL shortening feature:
 1. Install the Chrome extension.
 2. Open any webpage that you want to shorten the URL for.
 3. Click on the extension icon in the browser.
-4. The extension will generate a shortened URL for the current webpage.
+4. Copy the link of webpage into the text box and click on generate URL.
+5. It will generate a shorten URL for you
+   *(Right click on extension and select options and enter your own API key obtained by signing in at https://t.ly/kogI)*
+    
+<span> <img width="331" alt="Screenshot 2023-07-08 at 4 16 35 PM" src="https://github.com/Aryan-333/Chrome_Extension_URL-Email/assets/79599835/2b7f6dbb-3675-4247-ae40-dd706bfd6070"><img width="407" alt="Screenshot 2023-07-08 at 10 00 44 PM" src="https://github.com/Aryan-333/Chrome_Extension_URL-Email/assets/79599835/24a84f72-9f43-47b0-88ad-1c836a6cc4ff"></span>
+  
 
 ### Email Scraper
 
@@ -32,6 +33,8 @@ To scrape email addresses:
 3. Click on the extension icon in the browser.
 4. The extension will scan the page and collect all the email addresses it finds.
 5. The collected email addresses will be presented to you in a formatted list.
+
+   <img width="1437" alt="Screenshot 2023-07-08 at 4 15 22 PM" src="https://github.com/Aryan-333/Chrome_Extension_URL-Email/assets/79599835/41a0c1f1-5bee-436e-a183-e0b8999bd81a">
 
 ## Installation
 
@@ -47,15 +50,7 @@ To install the Chrome extension, follow these steps:
 
 After installing the extension, you can access its functionalities through the extension icon in the browser toolbar. Clicking on the icon will reveal a dropdown menu with options for URL shortening and email scraping. Simply follow the instructions mentioned in the respective sections above to utilize each feature.
 
-## Contributing
+## References
 
-Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the project's code of conduct.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Reference
-1. Chrome extension docs
-
-2. Spectre CSS
+1. [Chrome Extension Documentation](https://developer.chrome.com/docs/extensions/)
+2. [Spectre CSS](https://picturepan2.github.io/spectre/)
