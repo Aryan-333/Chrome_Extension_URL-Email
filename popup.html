@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>URL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="popup.js"></script>
+    <link rel="stylesheet" href="spectre.min.css">
+
+    <style>
+        body{
+            width: 330px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="toast toast-error d-hide">
+                Please enter valid URL
+              </div>
+          <div class="card-title h5">URL shortener</div>
+          <div class="card-subtitle text-primary">Enter URL</div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input class="form-input" type="text" id="myurl" placeholder="Paste the link">
+              </div>
+        </div>
+        <div class="card-footer">
+          <div class="loading d-hide"></div>
+          <button class="btn btn-primary" id="shorturl">Generate URL</button>
+          <div class="toast toast-success d-hide">
+            Shorten URL:
+          </div>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title h5">Scrape Email</div>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-primary" id="scrapeEmails">Get Emails</button>
+          <ol id="emailList"></ol>
+        </div>
+      </div>
+</body>
+</html>
